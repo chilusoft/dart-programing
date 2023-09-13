@@ -20,5 +20,8 @@ int fibonacci(int n) {
 }
 
 void main(List<String> arguments) {
-  print(fibonacci(int.parse(arguments[0])));
+  int loop_bound = int.parse(arguments[0]);
+  for (int i = 0; i <= loop_bound; i++) {
+    print(fibonacci(i));
+  }
 }
