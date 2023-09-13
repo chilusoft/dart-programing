@@ -14,8 +14,14 @@
 
 void main() {
   var year = 2021;
+  var carCollection = ['TOYOTA', 'Mercedes', 'Bently'];
 
   if (year >= 2020) {
     print('We are in the second decade of the 21st century.');
+  }
+
+  // the for in loop
+  for (final car in carCollection) {
+    print('my cars are ' + car);
   }
 }
