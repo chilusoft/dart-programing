@@ -24,4 +24,8 @@ void main() {
   for (final car in carCollection) {
     print('my cars are ' + car);
   }
+  // the for loop counter
+  for (int age = 3; age <= 18; age++) {
+    print('today is my ' + age.toString() + 'th birthday');
+  }
 }
