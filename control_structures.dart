@@ -28,4 +28,10 @@ void main() {
   for (int age = 3; age <= 18; age++) {
     print('today is my ' + age.toString() + 'th birthday');
   }
+
+  // the while loop
+  while (year <= 2027) {
+    year += 1;
+    print(year);
+  }
 }
